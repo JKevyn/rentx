@@ -3,12 +3,12 @@ import { useTheme } from 'styled-components';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../routes/stack.routes';
 import { format } from 'date-fns';
- 
+
 import { BackButton } from '../../components/BackButton';
 
 import ArrowSvg from '../../assets/arrow.svg';
 
-import { Alert, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 import { Button } from '../../components/Button';
 import { Calendar, DayProps, generateInterval, MarkedDateProps } from '../../components/Calendar';
 import { useNavigation, useRoute } from '@react-navigation/native';
@@ -49,15 +49,10 @@ export function Scheduling() {
     const { car } = route.params as Params;
 
     function handleConfirmRental() {
-        if(!rentalPeriod.startFormated || !rentalPeriod.endFormated) {
-            Alert.alert('Selecione o intervalo para alugar.');
-        } else{
-            navigation.navigate('SchedulingDetails', {
-                car,
-                dates: Object.keys(markedDates),
-            }
-            )
-        }
+        navigation.navigate('SchedulingDetails', {
+            car,
+            dates: Object.keys(markedDates),
+        });
     }
 
     function handleBack() {
@@ -68,7 +63,7 @@ export function Scheduling() {
         let start = !lastSelectedDate.timestamp ? date : lastSelectedDate;
         let end = date;
 
-        if(start.timestamp > end.timestamp){
+        if (start.timestamp > end.timestamp) {
             start = end;
             end = start;
         }
@@ -118,22 +113,25 @@ export function Scheduling() {
                     <DateInfo>
                         <DateTitle>ATÉ</DateTitle>
                         <DateValue selected={!!rentalPeriod.endFormated}>
-                        {rentalPeriod.endFormated}
-
+                            {rentalPeriod.endFormated}
                         </DateValue>
                     </DateInfo>
                 </RentalPerdiod>
             </Header>
 
             <Content>
-                <Calendar 
+                <Calendar
                     markedDates={markedDates}
                     onDayPress={handleChangeDate}
                 />
             </Content>
 
             <Footer>
-                <Button title="Confirmar" onPress={handleConfirmRental} />
+                <Button
+                    title="Confirmar"
+                    onPress={handleConfirmRental}
+                    enabled={!!rentalPeriod.startFormated}
+                />
             </Footer>
 
         </Container>
