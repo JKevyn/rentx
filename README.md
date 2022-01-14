@@ -4,9 +4,11 @@
   </a>
 </p>
 
+<h4 align="center">Aplicação simples para locação de carros usada como objeto de estudo.</h4>
+
 <p align="center">	
 
-  <a href="https://www.linkedin.com/in/kevyn-dev/">
+  <a href="https://www.linkedin.com/in/kevyn-dev/" decoration="none">
     <img src="https://img.shields.io/badge/kevyndev-dc1637?style=flat&logo=Linkedin&logoColor=white"/>
   </a>
 	
@@ -21,7 +23,7 @@
 </p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
+ <a href="#Features">Features</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
@@ -33,13 +35,13 @@
 	🚧  Rentx 🚘 Em construção...  🚧
 </h4>
 
-### Features
+### Features id="Features"
 
 - [x] Listagem de veículos
 - [x] Visualização dos veículos e suas respectivas informações
 - [x] Agendamento de locação de veículos
 - [x] Listagem dos veículos locados
-- [ ] Back-end real para a aplicação
+- [ ] Back end real para a aplicação
 
 ### Pré-requisitos
 
@@ -88,5 +90,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [JSON Server](https://www.npmjs.com/package/json-server)
 
+### Autor
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51202335?v=4" width="100px;" alt="Foto de Kevyn Goncalves"/>
+ 
+ <sub><b>Kevyn Gonçalves</b>
+	
+Feito por Kevyn Gonçalves 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Kevyn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kevyn-dev/)](https://www.linkedin.com/in/kevyn-dev/) 
+[![Gmail Badge](https://img.shields.io/badge/-kevyn.developer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kevyn.developer@gmail.com)](mailto:kevyn.developer@gmail.com)
 
 
