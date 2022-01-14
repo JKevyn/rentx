@@ -10,6 +10,4 @@
   <a href="https://github.com/rpsfilho93/proffy/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/JKevyn/rentx?color=dc1637&logo=github">
   </a>
-  
-  [![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 </p>
