@@ -5,8 +5,11 @@
 </p>
 
 <p align="center">	
-  <img src="https://img.shields.io/badge/kevyndev-dc1637?style=flat&logo=Linkedin&logoColor=white&url=https://www.linkedin.com/in/kevyn-dev/"/>
-  
+
+  <a href="https://www.linkedin.com/in/kevyn-dev/">
+    <img src="https://img.shields.io/badge/kevyndev-dc1637?style=flat&logo=Linkedin&logoColor=white"/>
+  </a>
+	
   <img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB">
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/JKevyn/rentx?color=dc1637">
