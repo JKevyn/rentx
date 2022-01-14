@@ -4,8 +4,6 @@
   </a>
 </p>
 
-https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkevyn-dev%2F
-
 <p align="center">	
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/JKevyn/rentx?color=dc1637">
   
