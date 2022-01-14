@@ -32,7 +32,10 @@ export function StackRoutes(){
             <Screen 
                 name="Home"
                 component={Home}
-                options={{ headerShown: false }}
+                options={{ 
+                    headerShown: false,
+                    gestureEnabled: false,
+                }}
             />
              <Screen 
                 name="CarDetails"
