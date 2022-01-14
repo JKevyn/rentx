@@ -74,7 +74,7 @@ $ expo start
 # Vá para a pasta services
 $ cd src/services
 
-# Execute a aplicação em modo de desenvolvimento
+# Execute a aplicação
 $ yarn api
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
