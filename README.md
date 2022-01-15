@@ -71,8 +71,6 @@ $ expo start
 ### 🎲 Rodando o Back End (servidor)
 
 ```bash
-# Vá para a pasta services
-$ cd src/services
 
 # Execute a aplicação
 $ yarn api
