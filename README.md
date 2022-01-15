@@ -73,6 +73,8 @@ $ expo start
 ```bash
 
 # Execute a aplicação
+$ npm run api
+ ou
 $ yarn api
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
