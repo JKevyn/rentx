@@ -8,6 +8,8 @@ import { SchedulingDetails } from '../screens/SchedulingDetails';
 import { SchedulingComplete } from '../screens/SchedulingComplete';
 import { MyCars } from "../screens/MyCars";
 import { Splash } from "../screens/Splash";
+import { SignIn } from "../screens/SignIn";
+import { SignUpFirstStep } from "../screens/SignUp/SignUpFirstStep";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -19,14 +21,26 @@ export type RootStackParamList = {
     SchedulingComplete: any;
     MyCars: any;
     Splash: any;
+    SignIn: any;
+    SignUpFirstStep: any;
   };
 
 export function StackRoutes(){
     return (
-        <Navigator initialRouteName="Splash">
-            <Screen 
+        <Navigator initialRouteName="SignIn">
+            {/* <Screen 
                 name="Splash"
                 component={Splash}
+                options={{ headerShown: false }}
+            /> */}
+            <Screen 
+                name="SignIn"
+                component={SignIn}
+                options={{ headerShown: false }}
+            />
+            <Screen 
+                name="SignUpFirstStep"
+                component={SignUpFirstStep}
                 options={{ headerShown: false }}
             />
             <Screen 

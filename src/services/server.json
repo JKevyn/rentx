@@ -295,7 +295,38 @@
         "2022-01-25",
         "2022-01-26",
         "2022-01-27",
-        "2022-01-13"
+        "2022-01-13",
+        "2022-01-20",
+        "2022-01-21",
+        "2022-01-22",
+        "2022-01-23",
+        "2022-01-24",
+        "2022-01-25",
+        "2022-01-26",
+        "2022-01-27",
+        "2022-01-28",
+        "2022-10-01",
+        "2022-10-02",
+        "2022-10-03",
+        "2022-10-04",
+        "2022-10-05",
+        "2022-10-06",
+        "2022-10-07",
+        "2022-10-08",
+        "2022-10-09",
+        "2022-10-10",
+        "2022-10-11",
+        "2022-10-12",
+        "2022-10-13",
+        "2022-10-14",
+        "2022-10-15",
+        "2022-10-16",
+        "2022-10-17",
+        "2022-10-18",
+        "2022-10-19",
+        "2022-10-20",
+        "2022-10-21",
+        "2022-10-22"
       ]
     },
     {
@@ -1207,6 +1238,104 @@
       "startDate": "13/01/2022",
       "endDate": "19/01/2022",
       "id": 7
+    },
+    {
+      "user_id": 1,
+      "car": {
+        "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
+        "brand": "Audi",
+        "name": "RS 5 Coupé",
+        "about": "O carro ainda tem sistema de tração nas quatro rodas Quattro com diferencial traseiro esportivo de série. De acordo com a Audi, ele faz o mesmo em 3,8 segundos na Sportback. Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar. Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
+        "rent": {
+          "period": "Ao dia",
+          "price": 120
+        },
+        "fuel_type": "electric",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
+        "accessories": [
+          {
+            "type": "speed",
+            "name": "250km/h"
+          },
+          {
+            "type": "acceleration",
+            "name": "3.8s"
+          },
+          {
+            "type": "turning_diameter",
+            "name": "800 HP"
+          },
+          {
+            "type": "electric_motor",
+            "name": "Elétrico"
+          },
+          {
+            "type": "exchange",
+            "name": "Auto"
+          },
+          {
+            "type": "seats",
+            "name": "5 pessoas"
+          }
+        ],
+        "photos": [
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/1.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/2.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/3.png"
+        ]
+      },
+      "startDate": "20/01/2022",
+      "endDate": "28/01/2022",
+      "id": 8
+    },
+    {
+      "user_id": 1,
+      "car": {
+        "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
+        "brand": "Audi",
+        "name": "RS 5 Coupé",
+        "about": "O carro ainda tem sistema de tração nas quatro rodas Quattro com diferencial traseiro esportivo de série. De acordo com a Audi, ele faz o mesmo em 3,8 segundos na Sportback. Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar. Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
+        "rent": {
+          "period": "Ao dia",
+          "price": 120
+        },
+        "fuel_type": "electric",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
+        "accessories": [
+          {
+            "type": "speed",
+            "name": "250km/h"
+          },
+          {
+            "type": "acceleration",
+            "name": "3.8s"
+          },
+          {
+            "type": "turning_diameter",
+            "name": "800 HP"
+          },
+          {
+            "type": "electric_motor",
+            "name": "Elétrico"
+          },
+          {
+            "type": "exchange",
+            "name": "Auto"
+          },
+          {
+            "type": "seats",
+            "name": "5 pessoas"
+          }
+        ],
+        "photos": [
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/1.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/2.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/3.png"
+        ]
+      },
+      "startDate": "01/10/2022",
+      "endDate": "22/10/2022",
+      "id": 9
     }
   ]
 }
